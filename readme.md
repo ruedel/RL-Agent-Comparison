@@ -16,7 +16,7 @@ To run the project, open the Jupyter notebook `RL Agent Comparison.ipynb` and ex
 - `RL Agent Comparison.ipynb`: This Jupyter notebook contains all the code for training and evaluating the reinforcement learning agents.
 - `requirements.txt`: This file lists the Python libraries that are required to run the project.
 - `README.md`: This file provides an overview of the project and instructions for installing and using it.
-- `content`: This folder contains the training logs, the cloned highway-env and videos of the first 30 training episodes of the DQN agent.
+- `content`: This folder contains the training logs and videos of the first 30 training episodes of the DQN agent.
 
 ## Algorithms
 
