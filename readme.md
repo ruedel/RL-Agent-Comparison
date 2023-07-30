@@ -18,6 +18,9 @@ To run the project, open the Jupyter notebook `RL Agent Comparison.ipynb` and ex
 - `requirements.txt`: This file lists the Python libraries that are required to run the project.
 - `README.md`: This file provides an overview of the project and instructions for installing and using it.
 - `content`: This folder contains the training logs and videos of the first 30 training episodes of the DQN agent.
+- `Aufgabe 1`: This folder contains the assignments for task 1, the timeline of algorithms from lessons 7 and 8
+- `Aufgabe 2`: This folder contains the deliverables for Task 2, the presentation on explainable AI.
+
 
 ## Algorithms
 
