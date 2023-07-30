@@ -1,0 +1,169 @@
+2023-07-27 13:36:29,896 DEBUG    root            Loaded Command Group: ['gcloud', 'components']
+2023-07-27 13:36:29,899 DEBUG    root            Loaded Command Group: ['gcloud', 'components', 'update']
+2023-07-27 13:36:29,901 DEBUG    root            Running [gcloud.components.update] with arguments: [--quiet: "True", COMPONENT-IDS:8: "['gcloud', 'core', 'bq', 'gsutil', 'compute', 'preview', 'alpha', 'beta']"]
+2023-07-27 13:36:29,902 INFO     ___FILE_ONLY___ Beginning update. This process may take several minutes.
+
+2023-07-27 13:36:29,909 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2023-07-27 13:36:30,049 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components-2.json HTTP/1.1" 200 208282
+2023-07-27 13:36:30,068 WARNING  root            Component [preview] no longer exists.
+2023-07-27 13:36:30,069 WARNING  root            Component [compute] no longer exists.
+2023-07-27 13:36:30,069 INFO     ___FILE_ONLY___ 
+
+2023-07-27 13:36:30,070 INFO     ___FILE_ONLY___ 
+Your current Google Cloud CLI version is: 440.0.0
+
+2023-07-27 13:36:30,070 INFO     ___FILE_ONLY___ Installing components from version: 440.0.0
+
+2023-07-27 13:36:30,070 INFO     ___FILE_ONLY___ 
+
+2023-07-27 13:36:30,070 DEBUG    root            Chosen display Format:table[box,title="These components will be removed."](details.display_name:label=Name:align=left,version.version_string:label=Version:align=right,data.size.size(zero="",min=1048576):label=Size:align=right)
+2023-07-27 13:36:30,071 DEBUG    root            Chosen display Format:table[box,title="These components will be updated."](details.display_name:label=Name:align=left,version.version_string:label=Version:align=right,data.size.size(zero="",min=1048576):label=Size:align=right)
+2023-07-27 13:36:30,072 DEBUG    root            Chosen display Format:table[box,title="These components will be installed."](details.display_name:label=Name:align=left,version.version_string:label=Version:align=right,data.size.size(zero="",min=1048576):label=Size:align=right)
+2023-07-27 13:36:30,073 INFO     ___FILE_ONLY___ ┌──────────────────────────────────────────────┐
+2023-07-27 13:36:30,073 INFO     ___FILE_ONLY___ 
+
+2023-07-27 13:36:30,073 INFO     ___FILE_ONLY___ │     These components will be installed.      │
+2023-07-27 13:36:30,073 INFO     ___FILE_ONLY___ 
+
+2023-07-27 13:36:30,073 INFO     ___FILE_ONLY___ ├───────────────────────┬────────────┬─────────┤
+2023-07-27 13:36:30,073 INFO     ___FILE_ONLY___ 
+
+2023-07-27 13:36:30,074 INFO     ___FILE_ONLY___ │          Name         │  Version   │   Size  │
+2023-07-27 13:36:30,074 INFO     ___FILE_ONLY___ 
+
+2023-07-27 13:36:30,074 INFO     ___FILE_ONLY___ ├───────────────────────┼────────────┼─────────┤
+2023-07-27 13:36:30,074 INFO     ___FILE_ONLY___ 
+
+2023-07-27 13:36:30,074 INFO     ___FILE_ONLY___ │ 
+2023-07-27 13:36:30,074 INFO     ___FILE_ONLY___ gcloud Alpha Commands
+2023-07-27 13:36:30,074 INFO     ___FILE_ONLY___  
+2023-07-27 13:36:30,074 INFO     ___FILE_ONLY___ │ 
+2023-07-27 13:36:30,074 INFO     ___FILE_ONLY___ 2023.07.21
+2023-07-27 13:36:30,074 INFO     ___FILE_ONLY___  
+2023-07-27 13:36:30,074 INFO     ___FILE_ONLY___ │ 
+2023-07-27 13:36:30,074 INFO     ___FILE_ONLY___ < 1 MiB
+2023-07-27 13:36:30,074 INFO     ___FILE_ONLY___  
+2023-07-27 13:36:30,074 INFO     ___FILE_ONLY___ │
+2023-07-27 13:36:30,074 INFO     ___FILE_ONLY___ 
+
+2023-07-27 13:36:30,074 INFO     ___FILE_ONLY___ │ 
+2023-07-27 13:36:30,075 INFO     ___FILE_ONLY___ gcloud Beta Commands 
+2023-07-27 13:36:30,075 INFO     ___FILE_ONLY___  
+2023-07-27 13:36:30,075 INFO     ___FILE_ONLY___ │ 
+2023-07-27 13:36:30,075 INFO     ___FILE_ONLY___ 2023.07.21
+2023-07-27 13:36:30,075 INFO     ___FILE_ONLY___  
+2023-07-27 13:36:30,075 INFO     ___FILE_ONLY___ │ 
+2023-07-27 13:36:30,075 INFO     ___FILE_ONLY___ < 1 MiB
+2023-07-27 13:36:30,075 INFO     ___FILE_ONLY___  
+2023-07-27 13:36:30,075 INFO     ___FILE_ONLY___ │
+2023-07-27 13:36:30,075 INFO     ___FILE_ONLY___ 
+
+2023-07-27 13:36:30,075 INFO     ___FILE_ONLY___ └───────────────────────┴────────────┴─────────┘
+2023-07-27 13:36:30,075 INFO     ___FILE_ONLY___ 
+
+2023-07-27 13:36:30,075 INFO     ___FILE_ONLY___ 
+
+2023-07-27 13:36:30,080 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2023-07-27 13:36:30,225 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/RELEASE_NOTES HTTP/1.1" 200 1044366
+2023-07-27 13:36:30,292 INFO     ___FILE_ONLY___ For the latest full release notes, please visit:
+  https://cloud.google.com/sdk/release_notes
+
+
+2023-07-27 13:36:30,295 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2023-07-27 13:36:30,296 INFO     ___FILE_ONLY___ ╠═ Creating update staging area                             ═╣
+
+2023-07-27 13:36:30,296 INFO     ___FILE_ONLY___ ╚
+2023-07-27 13:36:30,296 INFO     ___FILE_ONLY___ ══════
+2023-07-27 13:36:30,920 INFO     ___FILE_ONLY___ ══════
+2023-07-27 13:36:30,920 INFO     ___FILE_ONLY___ ══════
+2023-07-27 13:36:31,126 INFO     ___FILE_ONLY___ ═
+2023-07-27 13:36:31,179 INFO     ___FILE_ONLY___ ═
+2023-07-27 13:36:31,240 INFO     ___FILE_ONLY___ ═
+2023-07-27 13:36:31,287 INFO     ___FILE_ONLY___ ═
+2023-07-27 13:36:31,334 INFO     ___FILE_ONLY___ ═
+2023-07-27 13:36:31,378 INFO     ___FILE_ONLY___ ═
+2023-07-27 13:36:31,442 INFO     ___FILE_ONLY___ ═
+2023-07-27 13:36:31,504 INFO     ___FILE_ONLY___ ═
+2023-07-27 13:36:31,566 INFO     ___FILE_ONLY___ ═
+2023-07-27 13:36:31,616 INFO     ___FILE_ONLY___ ═
+2023-07-27 13:36:31,671 INFO     ___FILE_ONLY___ ═
+2023-07-27 13:36:31,726 INFO     ___FILE_ONLY___ ═
+2023-07-27 13:36:31,828 INFO     ___FILE_ONLY___ ═
+2023-07-27 13:36:31,882 INFO     ___FILE_ONLY___ ═
+2023-07-27 13:36:31,961 INFO     ___FILE_ONLY___ ═
+2023-07-27 13:36:32,014 INFO     ___FILE_ONLY___ ═
+2023-07-27 13:36:32,067 INFO     ___FILE_ONLY___ ═
+2023-07-27 13:36:32,119 INFO     ___FILE_ONLY___ ═
+2023-07-27 13:36:32,181 INFO     ___FILE_ONLY___ ═
+2023-07-27 13:36:32,262 INFO     ___FILE_ONLY___ ═
+2023-07-27 13:36:32,316 INFO     ___FILE_ONLY___ ═
+2023-07-27 13:36:32,384 INFO     ___FILE_ONLY___ ═
+2023-07-27 13:36:32,442 INFO     ___FILE_ONLY___ ═
+2023-07-27 13:36:32,500 INFO     ___FILE_ONLY___ ═
+2023-07-27 13:36:32,565 INFO     ___FILE_ONLY___ ═
+2023-07-27 13:36:32,864 INFO     ___FILE_ONLY___ ═
+2023-07-27 13:36:33,057 INFO     ___FILE_ONLY___ ═
+2023-07-27 13:36:33,138 INFO     ___FILE_ONLY___ ═
+2023-07-27 13:36:33,175 INFO     ___FILE_ONLY___ ═
+2023-07-27 13:36:33,213 INFO     ___FILE_ONLY___ ═
+2023-07-27 13:36:33,245 INFO     ___FILE_ONLY___ ═
+2023-07-27 13:36:33,276 INFO     ___FILE_ONLY___ ═
+2023-07-27 13:36:33,324 INFO     ___FILE_ONLY___ ═
+2023-07-27 13:36:33,413 INFO     ___FILE_ONLY___ ═
+2023-07-27 13:36:33,482 INFO     ___FILE_ONLY___ ═
+2023-07-27 13:36:33,679 INFO     ___FILE_ONLY___ ═
+2023-07-27 13:36:33,756 INFO     ___FILE_ONLY___ ═
+2023-07-27 13:36:33,817 INFO     ___FILE_ONLY___ ═
+2023-07-27 13:36:33,875 INFO     ___FILE_ONLY___ ═
+2023-07-27 13:36:33,931 INFO     ___FILE_ONLY___ ═
+2023-07-27 13:36:33,990 INFO     ___FILE_ONLY___ ═
+2023-07-27 13:36:34,042 INFO     ___FILE_ONLY___ ═
+2023-07-27 13:36:34,042 INFO     ___FILE_ONLY___ ╝
+
+2023-07-27 13:36:36,872 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2023-07-27 13:36:36,872 INFO     ___FILE_ONLY___ ╠═ Installing: gcloud Alpha Commands                        ═╣
+
+2023-07-27 13:36:36,872 INFO     ___FILE_ONLY___ ╚
+2023-07-27 13:36:36,877 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2023-07-27 13:36:37,017 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components/google-cloud-sdk-alpha-20230721154337.tar.gz HTTP/1.1" 200 800
+2023-07-27 13:36:37,018 INFO     ___FILE_ONLY___ ══════════════════════════════
+2023-07-27 13:36:37,020 INFO     ___FILE_ONLY___ ══════════════════════════════
+2023-07-27 13:36:37,020 INFO     ___FILE_ONLY___ ╝
+
+2023-07-27 13:36:37,028 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2023-07-27 13:36:37,029 INFO     ___FILE_ONLY___ ╠═ Installing: gcloud Beta Commands                         ═╣
+
+2023-07-27 13:36:37,029 INFO     ___FILE_ONLY___ ╚
+2023-07-27 13:36:37,033 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2023-07-27 13:36:37,171 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components/google-cloud-sdk-beta-20230721154337.tar.gz HTTP/1.1" 200 797
+2023-07-27 13:36:37,172 INFO     ___FILE_ONLY___ ══════════════════════════════
+2023-07-27 13:36:37,173 INFO     ___FILE_ONLY___ ══════════════════════════════
+2023-07-27 13:36:37,173 INFO     ___FILE_ONLY___ ╝
+
+2023-07-27 13:36:37,184 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2023-07-27 13:36:37,185 INFO     ___FILE_ONLY___ ╠═ Creating backup and activating new installation          ═╣
+
+2023-07-27 13:36:37,185 INFO     ___FILE_ONLY___ ╚
+2023-07-27 13:36:37,185 DEBUG    root            Attempting to move directory [/tools/google-cloud-sdk] to [/tools/google-cloud-sdk.staging/.install/.backup]
+2023-07-27 13:36:37,185 INFO     ___FILE_ONLY___ ══════════════════════════════
+2023-07-27 13:36:37,185 DEBUG    root            Attempting to move directory [/tools/google-cloud-sdk.staging] to [/tools/google-cloud-sdk]
+2023-07-27 13:36:37,185 INFO     ___FILE_ONLY___ ══════════════════════════════
+2023-07-27 13:36:37,185 INFO     ___FILE_ONLY___ ╝
+
+2023-07-27 13:36:37,189 DEBUG    root            Updating notification cache...
+2023-07-27 13:36:37,190 INFO     ___FILE_ONLY___ 
+
+2023-07-27 13:36:37,192 INFO     ___FILE_ONLY___ Performing post processing steps...
+2023-07-27 13:36:37,193 DEBUG    root            Executing command: ['python3', '-S', '/tools/google-cloud-sdk/lib/gcloud.py', 'components', 'post-process']
+2023-07-27 13:37:02,958 DEBUG    ___FILE_ONLY___ 
+2023-07-27 13:37:02,958 DEBUG    ___FILE_ONLY___ 
+2023-07-27 13:37:02,984 INFO     ___FILE_ONLY___ 
+Update done!
+
+
+2023-07-27 13:37:02,987 DEBUG    root            Chosen display Format:none
+2023-07-27 13:37:02,988 INFO     root            Display format: "none"
